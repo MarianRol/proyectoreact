@@ -1,0 +1,228 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+/*******NavBar*********/
+.navbar {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  margin: 0;
+ 
+  background-image: url(../public/images/logo.png);
+  background-position: 4% 50%;
+  background-repeat:no-repeat;
+  border:none;
+  
+}
+
+.nombrenav {
+  display: flex;
+  
+  line-height: 1;
+  color: white;
+}
+
+
+.listanav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+}
+.link1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  list-style: none;
+  margin: 0 150px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: #d6853a;
+}
+.link1:hover {
+  color: wheat;
+}
+
+
+.cajatext {
+  margin: 10px;
+}
+.comentario {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+.botonenv {
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #ad5400;
+  padding: 10px;
+  margin: 15px;
+  font-size: medium;
+}
+
+.listaproduct {
+  display: flex;
+  justify-content: center;
+
+}
+
+/************Seccion Home************/
+
+.hero{
+  display: flex;
+ 
+  background-image: url(../public/images/hero.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 34rem;
+  
+}
+
+.section {
+  display: flex;
+  background-color: #282c34;
+  height: 30px;
+}
+
+
+/******** nombre******/
+
+.fourColumns {
+  display:flex;
+
+  color: white;
+  padding-left: 6rem;
+  padding-top: 6rem;
+  line-height: 1;
+  text-align: center;
+  font-size: 9rem;
+  font-family: 'Caveat', cursive;
+}
+
+/*********Carousel**********/
+
+
+.estiloCarouselCont {
+  display: flex;
+  width: 100%;
+}
+
+.estiloCaption {
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+
+
+/*******Cards Container******/
+.contenedor{
+  height: 64rem;
+  width: 27rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.estiloCards {
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.estiloImagen {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.estilostar {
+  display: flex;
+  padding-bottom: 10px;
+  height: 40px;
+  width: 70%;
+}
+
+.estilocardscont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #202325;
+  padding: 20px;
+}
+
+.estiloTexto {
+  margin: auto;
+  padding: 0 10px;
+  color: rgb(255, 115, 0);
+}
+
+.estiloH4 {
+  color: #ad5400;
+  margin-top: 10px;
+}
+
+
+/*******CARRITO********/
+
+.container-fluid {
+  background-color: #a7a4a4;
+  color:white;
+  padding: 20px;
+}
+
+.row {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageprocart {
+  height: 80px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+
+/******FOOTER*******/
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 6rem;
+  padding: 3rem;
+  background-color: black;
+  color:azure;
+}
